@@ -44,6 +44,7 @@
         color: #252726;
         margin: 0 0 0 20px;
         text-decoration: none;
+        transition: all .3s ease-in-out;
         &::before {
             position: absolute;
             left: -19px;
@@ -59,6 +60,7 @@
         &:hover {
             color: #252726;
             text-decoration: underline;
+            transition: all .3s ease-in-out;
         }
     }
     &__work-time {

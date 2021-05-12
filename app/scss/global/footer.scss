@@ -1,0 +1,90 @@
+.footer {
+    &__top {
+        background-color: #fff;
+    }
+    &__bottom {
+        color: #bababa;
+        background-color: #242323;
+    }
+    &__nav {}
+    &__copyright {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px 15px;
+    }
+    .footer-copyright {
+        font-weight: 300;
+        line-height: 28px;
+    }
+    .footer-developer {
+        &__link {
+            line-height: 28px;
+            color: #bababa;
+            text-decoration: none;
+            transition: all .3s ease-in-out;
+            &:hover {
+                color: #ff931e;
+                text-decoration: underline;
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
+    
+}
+.footer-nav {
+    display: flex;
+    padding: 41px 15px 48px;
+    &__item {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        &:not(:last-child) {
+            margin: 0 105px 0 0;
+        }
+    }
+    &__phone {
+        position: relative;
+        font-size: 24px;
+        text-decoration: none;
+        &::before {
+            display: none;
+        }
+        &:hover {
+            &::before {
+                display: block;
+                content: '';
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                border-bottom: 1px solid #242323;
+                transition: all .3s ease-in-out;
+            }
+        }
+    }
+    &__link {
+        position: relative;
+        font-weight: 900;
+        line-height: 32px;
+        color: #ff931e;
+        text-decoration: none;
+        transition: all .3s ease-in-out;
+        &:hover {
+            color: #242323;
+            transition: all .3s ease-in-out;
+            &::before {
+                border-bottom: 1px solid #242323;
+                transition: all .3s ease-in-out;
+            }
+        }
+        &::before {
+            content: '';
+            position: absolute;
+            bottom: 4px;
+            width: 100%;
+            border-bottom: 1px solid #afd2af;
+            transition: all .3s ease-in-out;
+        }
+    }
+}

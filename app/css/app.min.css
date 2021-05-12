@@ -5508,7 +5508,7 @@ body {
   max-width: 1660px;
   width: 100%;
   background-color: #fff;
-  padding: 34px 15px;
+  padding: 34px 15px 40px;
   margin: 0 auto
 }
 .work-scheme__title {
@@ -5662,167 +5662,41 @@ body {
   height: 54px;
   z-index: 172
 }
-.work-scheme {
-  padding: 8px 0
+.feedback {
+  padding: 33px 0
 }
-.work-scheme .title {
-  margin: 0 0 49px 0
+.feedback .title {
+  margin: 0 0 40px 0
 }
-.work-scheme__wrapper {
-  max-width: 1660px;
-  width: 100%;
+.feedback__wrapper {
+  background-color: #e16f00;
+  padding: 64px 0 34px
+}
+.feedback-item {
   background-color: #fff;
-  padding: 34px 15px;
-  margin: 0 auto
-}
-.work-scheme__title {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 30px;
-  margin: 0 0 18px 0
-}
-.work-scheme__title_second {
-  margin: 0 0 25px 0
-}
-.work-scheme__text {
-  font-size: 18px;
-  line-height: 22px;
-  margin: 0 0 33px 0
-}
-.work-scheme__list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-wrap: wrap;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: 0 0 9px 0
-}
-.work-scheme__item {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 31%;
-  flex: 0 0 31%;
+  background-image: url(/img/dest/icons/feedback-quote.png);
+  background-repeat: no-repeat;
+  background-position: 47px 32px;
+  padding: 69px 45px 69px 45px;
   margin: 0 0 30px 0
 }
-.work-scheme__item:not(:last-child) {
-  margin: 0 30px 30px 0
-}
-.work-scheme__item-image {
-  margin: 0 15px 0 0
-}
-.work-scheme__item-description {
+.feedback-item__title {
   font-weight: 900;
-  font-size: 14px;
+  line-height: 24px
+}
+.feedback-item__sub-title {
+  max-width: 240px;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 13px;
   line-height: 20px;
-  text-transform: uppercase
+  margin: 0 0 13px 0
 }
-.scheme-form {
-  background-color: #ebeced;
-  padding: 32px 40px 28px
-}
-.scheme-form__description {
+.feedback-item__content {
+  font-weight: 300;
   line-height: 24px;
-  margin: 0 0 26px 0
-}
-.scheme-form__wrapper {
+  overflow: hidden;
   display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  border-radius: 2px;
-  border: 1px dashed #e3e3e5
-}
-.scheme-form__field {
-  width: 26%
-}
-.scheme-form__field:not(:last-child) {
-  width: 32%
-}
-.scheme-form__input {
-  width: 100%;
-  font-size: 13px;
-  line-height: 30px;
-  background-color: #fff;
-  padding: 8px 20px 10px;
-  border: 1px solid #dddede;
-  text-transform: uppercase
-}
-.scheme-form__input::-webkit-input-placeholder {
-  font-size: 13px;
-  line-height: 30px;
-  color: #38393a
-}
-.scheme-form__input::-moz-placeholder {
-  font-size: 13px;
-  line-height: 30px;
-  color: #38393a
-}
-.scheme-form__input:-ms-input-placeholder {
-  font-size: 13px;
-  line-height: 30px;
-  color: #38393a
-}
-.scheme-form__input::-ms-input-placeholder {
-  font-size: 13px;
-  line-height: 30px;
-  color: #38393a
-}
-.scheme-form__input::placeholder {
-  font-size: 13px;
-  line-height: 30px;
-  color: #38393a
-}
-.scheme-form__submit {
-  cursor: pointer;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 30px;
-  color: #f3992b;
-  padding: 8px 20px;
-  border: 1px solid #f3992b;
-  border-radius: 10px;
-  text-transform: uppercase;
-  -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out
-}
-.scheme-form__submit:hover {
-  color: #fff;
-  background-color: #f3992b;
-  -webkit-transition: all .3s ease-in-out;
-  -o-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out
-}
-.scheme-form__submit .Прямоугольник__скругл__углы_32 {
-  border-style: solid;
-  border-width: 1px;
-  border-color: #f3992b;
-  background-color: rgba(226,78,79,0);
-  position: absolute;
-  left: 1196px;
-  top: 3534px;
-  width: 284px;
-  height: 54px;
-  z-index: 172
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5
 }

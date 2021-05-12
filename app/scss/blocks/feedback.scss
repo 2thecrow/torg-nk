@@ -1,0 +1,41 @@
+.feedback {
+    padding: 33px 0;
+    .title {
+        margin: 0 0 40px 0;
+    }
+    &__wrapper {
+        background-color: #e16f00;
+        padding: 64px 0 34px;
+    }
+    &__item {}
+}
+
+.feedback-item {
+    background-color: #fff;
+    background-image: url(/img/dest/icons/feedback-quote.png);
+    background-repeat: no-repeat;
+    background-position: 47px 32px;
+    padding: 69px 45px 69px 45px;
+    margin: 0 0 30px 0;
+    &__title {
+        font-weight: 900;
+        line-height: 24px;
+    }
+    &__sub-title {
+        max-width: 240px;
+        font-weight: 300;
+        font-style: italic;
+        font-size: 13px;
+        line-height: 20px;
+        margin: 0 0 13px 0;
+    }
+    &__content {
+        font-weight: 300;
+        line-height: 24px;
+        overflow: hidden; /* include for safety */
+        display: -webkit-box; /* setting a block element  */
+        -webkit-box-orient: vertical; /* companion class   */
+        -webkit-line-clamp: 5; /* number of lines  */
+    }
+}
+
